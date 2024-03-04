@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <h1>KYC Form</h1>
+    <p>1. Name of the Applicant</p>
+    <input type="text"placeholder="First Name">
+    <input type="text"placeholder="Last Name">
+    <p>2.Father's/Spouse's Name</p>
+    <input type="text"placeholder="First Name">
+    <input type="text"placeholder="Last Name">
+    <p>2a. Gender</p>
+    <div>
+    <label for="id1">Male</label>
+    <input type="radio"value="male"name="Male">
+</div>
+<div>
+<label for="id1">Female</label>
+    <input type="radio"value="female"name="Female">
+</div>
+<div>
+    <label for="id1">Others</label>
+    <input type="radio"value="others"name="Others">
+</div>
+<p>2b. Marital Status</p>
+<div>
+    <label for="id1">Single</label>
+    <input type="radio"value="single"name="Single">
+</div>
+<div>
+    <label for="id1">Married</label>
+    <input type="radio"value="married"name="Married">
+</div>
+<p>2c. Date of Birth</p>
+<input type="number"placeholder="MM-DD-YYY">
+<p>3. Nationality</p>
+<select>
+    <option value="nepali">Nepali</option>
+    <option value="indian">Indian</option>
+    <option value="chinese">Chinese</option>
+    <option value="american">American</option>
+</select>
+<p>4. Status</p>
+<label for="id2">Resident Individual</label>
+<input type="radio"value="resident individual"name="Resident Individual">
+<label for="id2">Non-Resident</label>
+<input type="radio"value="non-resident"name="Non-Resident">
+<label for="id2">Foreign National</label>
+<input type="radio"value="foreign national"name="Foreign National">
+<p>5. PAN</p>
+<input type="number"placeholder="Pan Number">
+<div>
+    <h1><b>B. Address Details</b></h1>
+    <p>1. Address for Correspondance</p>
+</div>
+<div>
+    <input type="hyperlink"placeholder="Street Addeess">
+    <input type="hyperlink"placeholder="Street Address Line 2">
+    <br>
+    <br>
+    <input div="City"> City
+    <br>
+    <br>
+    <input div="State/Province"> State/Province
+    <br>
+    <br>
+    <input div="Postal/Zip Code"> Postal/Zip Code
+    <select>
+        <option value="Country">Country</option>
+        <option value="Country">Nepal</option>
+        <option value="Country">Indian</option>
+        <option value="Country">China</option>
+        <option value="Country">America</option>
+    </select>
+    <p>2. Phone Number</p>
+    <input div> Please enter a valid phone number
+    <p>3. E-mail</p>
+    <input div> example@gmail.com
+</div>
+<p>4. Proof of Address to be Provided by the Applicant</p>
+<input type="checkbox">
+<label for="proof">Passport</label>
+<input type="checkbox">
+<label for="proof">Citizenship Card</label>
+<input type="checkbox">
+<label for="proof">Voter ID</label>
+<input type="checkbox">
+<label for="proof">PAN Card</label>
+<div>
+<h1>C. File Upload</h1>
+Please upload the related documents and photographs.
+</div>
+<h1><b>D. Declaration</b></h1>
+<div>
+    <p>I herby decalre that the information provided by me in this form is accurate and complete.I confirm that any information is founded incorrect and/or invomplete
+        that leads a violation of regulations may initiate legal actions, and I accept that I am the responsible party for any and all 
+        charges,penalties and violations.
+    </p>
+    <p>Name of the Applicant</p>
+    <input div> First Name
+    <input div> Last Name
+    <p>Signature of the Applicant</p>
+    <input box>
+    <p>Date Signed</p>
+    <input type="number"placeholder="MM-DD-YYYY">
+</div>
+<br>
+<br>
+<button class="last"type="button">Submit</button>
+</body>
+</html>
